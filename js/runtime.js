@@ -1,3 +1,4 @@
+// 页脚Githu徽标-计时器设置
 setInterval(() => {
   let create_time = Math.round(new Date('2023-07-25 00:00:00').getTime() / 1000);                   //在此行修改建站时间
   let timestamp = Math.round((new Date().getTime()) / 1000);
