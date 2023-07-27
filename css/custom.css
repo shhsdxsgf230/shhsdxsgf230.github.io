@@ -1,4 +1,5 @@
-/*一图流魔改*/
+/*1. 一图流魔改*/
+
 /* 页脚与头图透明 */
 #footer {
   background: transparent !important;
@@ -6,7 +7,6 @@
 #page-header {
   background: transparent !important;
 }
-
 /* 白天模式遮罩透明 */
 #footer::before {
   background: transparent !important;
@@ -14,7 +14,6 @@
 #page-header::before {
   background: transparent !important;
 }
-
 /* 夜间模式遮罩透明 */
 [data-theme="dark"] #footer::before {
   background: transparent !important;
